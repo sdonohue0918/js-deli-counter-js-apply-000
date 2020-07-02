@@ -2,7 +2,7 @@
 
 
 
-var katzDeliLine = []
+var katzDeliLine = ["Steven"]
 
 
 function takeANumber(katzDeliLine, name) {
@@ -18,7 +18,7 @@ function takeANumber(katzDeliLine, name) {
 
 //2.nowServing
 
-function nowServing() {
+function nowServing(){
   if (katzDeliLine.length = 0) {
     return `There is noboby waiting to be served!`
   } else {
