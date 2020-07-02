@@ -25,5 +25,5 @@ function nowServing() {
     return `Currently serving ${katzDeliLine[0]}`
   }
 
-  
+
 };
