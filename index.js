@@ -39,8 +39,8 @@ function currentLine(katzDeliLine) {
   } else {
     for (var i = 0; i<=katzDeliLine.length; i++) {
       currentLine++
-      return `The line is currently: ${currentLine}. ${katzDeliLine[i]} `
+      return `The line is currently: ${currentLine}. ${katzDeliLine[i]},`
     }
 
   }
-}
+};
