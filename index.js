@@ -40,7 +40,7 @@ function currentLine(katzDeliLine) {
       return `The line is currently: ${currentLine}. ${katzDeliLine[i]},`
   } else {
     return `The line is currently empty.`
-    
+
     }
 
   }
