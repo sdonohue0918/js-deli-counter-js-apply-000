@@ -19,10 +19,10 @@ function takeANumber(katzDeliLine, name) {
 //2.nowServing
 
 function nowServing(){
-  if (katzDeliLine.length = 0) {
-    return `There is noboby waiting to be served!`
+  if (katzDeliLine.length > 0) {
+    return `Currently serving ${katzDeliLine.unshift()}.`
   } else {
-    return `Currently serving ${katzDeliLine[0]}.` + katzDeliLine.shift()
+    return `The line is currently empty.`
   }
 
 
