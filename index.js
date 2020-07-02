@@ -18,7 +18,7 @@ function takeANumber(katzDeliLine, name) {
 
 //2.nowServing
 
-function nowServing(){
+function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0) {
     return `Currently serving ${katzDeliLine.unshift()}.`
   } else {
